@@ -1,4 +1,4 @@
-# demo-v1fs
+# demo-v1fs (update the app.py file adding your API KEY)
 
 git clone https://github.com/andrefernandes86/demo-v1fs.git
 
