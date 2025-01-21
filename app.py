@@ -7,8 +7,12 @@ app = Flask(__name__)
 
 # Configuration
 UPLOAD_FOLDER = 'uploads'
-ALLOWED_EXTENSIONS = {'txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif', 'exe'}
-API_KEY = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJjaWQiOiJjYjM3YmU2Mi0zMzJjLTQ4NjctYWFkOC0xZDVkODE3NDYzMjYiLCJjcGlkIjoic3ZwIiwicHBpZCI6ImN1cyIsIml0IjoxNzM2OTkyNjAyLCJldCI6MjIxMDAzMjYwMSwiaWQiOiI3NGIwMDA4Yi00MWI4LTQ2ZDMtYmViMC1jNDgwMzk3OTg0ZDgiLCJ0b2tlblVzZSI6ImN1c3RvbWVyIn0.TTin38ciSQRzzdALZVRbHjeENErTquwXO5My926nMuglWY_y8fdqzdmiRnffDFbH2qPQqlaQJR-IBAvFgahY4IUzdhFprTKoy-MUdFsSvHZApBwAsE9pJA2Ol7OqSguSOudWURudppq2vl46iaGvKsQWAtEkTM50QOJCrLhmd79wNdF0z7Wxy8pdIOLOEdzMdXiI1qizV4Ryfx5iUHBP_otOJsrf3OwPt1cLo2XBNurdCx10hrPZHx89j6ibpty5sRTkPvz-ZAdekRE6OhPDf4oOoneTGGGbW03HTeIcwzG46AhnMlAjt0oA32l6UpGhTstGAVElHyMk7nUHhgbMOK6_FgLEMd91GC2bGkHq30K4lbv8WxVHL-W_e0Q1aKmrbs3ekJ2xXpFG3vVGaF5KVSxVUL7rj_Pb3DUsnw-gcTa1OknA7x7AyQoxBbK7ChskkgxX6SQwsC0iSWM6tJ3mF0m9wY1QYNHnvmXWy1BF6JpkEl9Ry8wGw_r3Gq9KfPW2kJPQ2R92vxI4HTDeelqyi10GvL0TwbaUvB-pd9QuTsNY_3HG_AJSiLVBVpDIH-ckjT-ofKMuBYJRc1-YTYabKw50oJfFrilfXiJMyFJ3EIbOezO3vKWSwCPPDYdTO0By_ifP2Luoyd__3lr_myuwrq358qQtv2Esw_rYhA4hdjE'
+
+ALLOWED_EXTENSIONS = {'txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif', 'exe', 'ps1', 'doc', 'docx', 'xls', 'xlsx'}
+######################################
+# Replace with your API KEY here!!!  #
+######################################
+API_KEY = 'TTin38ciSQRzzdALZVRbHjeENErTquwXO5My926nMuglWY_y8fdqzdmiRnffDFbH2qPQqlaQJR-IBAvFgahY4IUzdhFprTKoy-MUdFsSvHZApBwAsE9pJA2Ol7OqSguSOudWURudppq2vl46iaGvKsQWAtEkTM50QOJCrLhmd79wNdF0z7Wxy8pdIOLOEdzMdXiI1qizV4Ryfx5iUHBP_otOJsrf3OwPt1cLo2XBNurdCx10hrPZHx89j6ibpty5sRTkPvz-ZAdekRE6OhPDf4oOoneTGGGbW03HTeIcwzG46AhnMlAjt0oA32l6UpGhTstGAVElHyMk7nUHhgbMOK6_FgLEMd91GC2bGkHq30K4lbv8WxVHL-W_e0Q1aKmrbs3ekJ2xXpFG3vVGaF5KVSxVUL7rj_Pb3DUsnw-gcTa1OknA7x7AyQoxBbK7ChskkgxX6SQwsC0iSWM6tJ3mF0m9wY1QYNHnvmXWy1BF6JpkEl9Ry8wGw_r3Gq9KfPW2kJPQ2R92vxI4HTDeelqyi10GvL0TwbaUvB-pd9QuTsNY_3HG_AJSiLVBVpDIH-ckjT-ofKMuBYJRc1-YTYabKw50oJfFrilfXiJMyFJ3EIbOezO3vKWSwCPPDYdTO0By_ifP2Luoyd__3lr_myuwrq358qQtv2Esw_rYhA4hdjE'
 REGION = 'us-east-1'
 TLS_ENABLED = False
 CA_CERT = None
